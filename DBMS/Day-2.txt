@@ -1,0 +1,22 @@
+Aggregate Fun.:
+Min(column)
+
+Joins:
+left,right, inner, full, cross, self;
+
+Subquery:
+
+Coorelated query:
+
+Exists/Not Exists: 
+IN/Not IN:
+ANY and ALL
+
+
+Test: 
+Department_name , department_id whose salary is more than average of depart salary.
+Done: Select depart_id from employee e1 where salary>=(Select avg(salary) from employee where depart_id=e1.depart_id);
+
+
+Highest salary in each department.-DONE Select emp_name, salary,depart_id from Employee e1 where salary>=(select max(salary) from employee where depart_id=e1.depart_id); 
+

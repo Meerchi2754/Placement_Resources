@@ -1,0 +1,21 @@
+VIEW:
+No Distinct, Any aggregate function, Union, Came from single Table is called Simple view. They are easy accesable.
+
+Stored Procedure :
+iS Like a Function but in Sql.
+Start from DElimeter.
+It can also give return type.
+
+
+User definded function in SQL:
+SWITCH case in SQL;
+	RETURN VARCHAR(100)
+	DETERMINISTICE
+	BEGIN	
+	DECLARE label varchar(50);
+	SET label=CASE
+	WHEN p_status ='active' then 'User is active'
+	END;
+
+Cursor and Triggers:
+Old  , new , triggers,
