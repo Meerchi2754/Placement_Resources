@@ -12,21 +12,24 @@ public class Que1 {
             q2.add(i);
         }
 
-        System.out.println("Queue2:" + q1+"\nQueue3:"+q2);
+
+
+
+        System.out.println("Queue2:" + q1 + "\nQueue3:" + q2);
         System.out.println(q1.equals(q2));
-        //1700
-        //225
-        //235
-        //35
-        //32
-        //84    
-        //918
-        //2073
-        //143
-        //456 Good
-        //678
-        //682
-        //950
-        //622
+        // 1700
+        // 225
+        // 235
+        // 35
+        // 32
+        // 84
+        // 918
+        // 2073
+        // 143
+        // 456 Good
+        // 678
+        // 682
+        // 950
+        // 622
     }
 }
